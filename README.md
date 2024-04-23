@@ -32,7 +32,7 @@ The simulator also simulates noise that is seen in real-world experiments. Chang
 The simulator already applies a computational basis measurement to each qubit at the end. Therefore, it is not needed to add measurement gates in the Quantum Composer circuit or QASM file.
 
 ## Acknowledgements and Additional Information
-This project was the final project for the ___Quantum Computing I___ stream of the ___UT Austin Freshman Research Initiative___.
+This project was the final project for the __Quantum Computing I__ stream of the __UT Austin Freshman Research Initiative__.
 Below is a link to a presentation that includes an overview of the project, experimental results, and a comparison to IBM's simulator results.
 [https://docs.google.com/presentation/d/1PQq5UbhUgi7Pp6gAufiHn1PWFwyILQEj3BDO-2yfxKE/edit?usp=sharing](url)
 
