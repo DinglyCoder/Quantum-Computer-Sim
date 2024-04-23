@@ -14,7 +14,7 @@ This project is a Quantum Computer Simulator that uses Python to mimic results o
 * __T__ - π/8 (T)
 * __T<sup>†</sup>__ - Conjugate Transpose of T
 * __CX__ - Controlled Not (CNOT, CX)
-* __U__ - Unitary
+* __U__ - Custom Unitary
 
 ### Creating and Using a QASM file
 This program reads in a QASM file to create the initial state and apply the relevant gates. QASM (Quantum Assembly Language) is a low-level language used to program Quantum Computers. 
