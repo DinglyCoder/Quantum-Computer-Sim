@@ -1,4 +1,4 @@
-# Quantum-Computer-Sim
+# Quantum Computer Simulator
 
 This project is a Quantum Computer Simulator that uses Python to mimic results of a physical Quantum Computer. The program takes in a QASM file, returns the final state vector, and plots measurement results.
 
