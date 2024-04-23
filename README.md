@@ -24,7 +24,7 @@ This program reads in a QASM file to create the initial state and apply the rele
 > * The first 2 lines of IBM's QASM file contain the version and a library inculsion. These are followed by a blank space. For simplicity, leave these in the file and don't include any other spaces in the QASM file.
 > * The Unitary gate by default has π/2 for the Theta, Phi, and Lambda parameters. For this program, make sure the parameters are decimal or float numbers
 
-### Implementation details
+## Implementation details
 This program uses [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product) to create a quantum state and apply gate transformations to it. This was done to accommodate for the __CNOT__ gate which entangles 2 Qubits, and therefore makes it impossible to represent them as seperable qubit vectors.
 
 The simulator also simulates noise that is seen in real-world experiments. Change the value of the noise parameter from the default 0.01 to experience higher or lower noise in the data's results. Noise is experienced in the measuring portion of the program and it is done to mimic the dark counts experienced by physical qubit measurement apparatus.
