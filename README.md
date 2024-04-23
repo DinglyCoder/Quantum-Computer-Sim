@@ -2,8 +2,8 @@
 
 This project is a Quantum Computer Simulator that uses Python to mimic results of a physical Quantum Computer. The program takes in a QASM file, returns the final state vector, and plots measurement results.
 
-# # How To Use This Simulator
-# # # The following Quantum logic gates are implemented in this simulator:
+## How To Use This Simulator
+### The following Quantum logic gates are implemented in this simulator:
 * __I__ - Identity (I)
 * __X__ - Pauli-X (X)
 * __Y__ - Pauli-Y (Y)
@@ -16,7 +16,7 @@ This project is a Quantum Computer Simulator that uses Python to mimic results o
 * __CX__ - Controlled Not (CNOT, CX)
 * __U__ - Unitary
 
-# # # Creating and Using a QASM file
+### Creating and Using a QASM file
 This program reads in a QASM file to create the initial state and apply the relevant gates. QASM (Quantum Assembly Language) is a low-level language used to program Quantum Computers. 
 [IBM Quantum Composer](https://quantum.ibm.com/composer/files/new) allows you to visually create a circuit using logic blocks that can be exported as a QASM file. Simply paste the file path into the program and run the main cell to recieve the results of the experiment.
 
@@ -24,7 +24,7 @@ Additional Details:
 * The first 2 lines of IBM's QASM file contain the version and a library inculsion. These are followed by a blank space. For simplicity, leave these in the file and don't include any other spaces in the QASM file.
 * The Unitary gate by default has π/2 for the Theta, Phi, and Lambda parameters. For this program, make sure the parameters are decimal or float numbers
 
-# # # Implementation details
+### Implementation details
 This program uses [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product) to create a quantum state and apply gate transformations to it. This was done to accommodate for the __CNOT__ gate which entangles 2 Qubits, and therefore makes it impossible to represent them as a series of kronecker products.
 
 The simulator also simulates noise that is seen in real-world experiments. Change the value of the noise parameter from the default 0.01 to experience higher or lower noise in the data's results. Noise is experienced in the measuring portion of the program and it is done to mimic the dark counts experienced by physical qubit measurement apparatus.
