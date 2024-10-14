@@ -34,5 +34,5 @@ The simulator already applies a computational basis measurement to each qubit at
 ## Acknowledgements and Additional Information
 This project was the final project for the __Quantum Computing I__ stream of the __UT Austin Freshman Research Initiative__.
 Below is a link to a presentation that includes an overview of the project, experimental results, and a comparison to IBM's simulator results.
-[https://docs.google.com/presentation/d/1PQq5UbhUgi7Pp6gAufiHn1PWFwyILQEj3BDO-2yfxKE/edit?usp=sharing](url)
+https://docs.google.com/presentation/d/1PQq5UbhUgi7Pp6gAufiHn1PWFwyILQEj3BDO-2yfxKE/edit?usp=sharing
 
